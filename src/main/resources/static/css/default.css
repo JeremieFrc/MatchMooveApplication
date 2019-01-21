@@ -1,0 +1,171 @@
+/*----------------------------------------------------
+						GENERAL
+------------------------------------------------------*/
+* 
+{
+	margin: 0;
+	padding: 0;
+	font-family: Lato, cursive;
+ }
+ 
+ body
+ {
+ 	position: relative;
+ }
+
+.br
+{
+ 	clear :both;
+ }
+
+h1
+{
+	color: white;
+	font-size: 70px;
+	text-shadow:0 0 10px black;
+	text-align: center;
+	padding-top: 190px;
+}
+
+h2
+{
+	color: #143045;
+	font-size: 30px;
+	text-shadow:0 0 3px black;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 23px;
+}
+
+h5
+{
+	font-size: 23px;
+	padding-bottom: 10px;
+}
+
+#displayArticle
+{
+	margin: 50px;
+}
+
+#flex
+{
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*----------------------------------------------------
+						FORM
+------------------------------------------------------*/
+.formArticle
+{ 
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+
+.form
+{ 
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+
+/*----------------------------------------------------
+						BOUTONS
+------------------------------------------------------*/
+
+a[title], input[type=button], input[type=submit], input[type=reset]   
+{
+	width: 130px;
+	height: 35px;
+    font-size: 13px;
+    color: white;
+    background-color: #143045;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    line-height: 36px;
+    display: block;
+    margin-bottom: 3px;
+    border: none;
+    float: right;
+    margin-top: 5px;
+}
+
+a[title]:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover   
+{
+	background-color: #3980a58c;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/*----------------------------------------------------
+					CGU
+------------------------------------------------------*/
+#cgu
+{
+	margin: 50px;
+}
+/*----------------------------------------------------
+					RESPONSIVE DESIGN
+------------------------------------------------------*/
+@media only screen and (max-width:950px) {
+   #Trajets {
+       flex-wrap: wrap;
+	   justify-content: center;  
+    }
+
+	#Actu {
+		flex-wrap: wrap;
+		justify-content: center;	
+	}
+	
+	.trajetbloc {
+		width: 300px;
+	}
+}
+
+
+/*----------------------------------------------------
+						ANIMATION
+------------------------------------------------------*/
+#car
+{
+	width: 100px;
+	position: absolute;
+	top: -38px;
+	animation: AnimCar infinite linear 10s;
+}
+
+@keyframes AnimCar
+{
+    from 
+{
+    left: 0px;
+}
+	to
+{
+    left: 1150px;
+}
+
+}

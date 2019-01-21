@@ -1,0 +1,87 @@
+header
+{
+	background-image: url(../images/vosmatchs.jpg);
+	background-position: 5% 37%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60vh;
+	margin-bottom: 60px;
+
+}
+
+#headerAdmin
+{
+	background-image: url(../images/vosmatchs.jpg);
+	background-position: 5% 40%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45vh;
+	margin-bottom: 60px;
+}
+
+#logo img
+{
+    width:30%; 
+    height: auto;
+	left:20px;
+}
+
+#logo img:hover
+{
+	transform:scale(1.1,1.1);
+    cursor: pointer;
+}
+
+nav ul 
+{
+	display: flex;
+	justify-content: space-around;	
+}
+
+
+nav a
+{
+	color: #bddd1d;
+	font-weight: 700;
+	font-size: 2.2vw;
+	text-shadow:0 0 3px black;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color:#A1AD19;
+	text-decoration: none;
+	text-shadow:0 0 3px black;
+}
+
+nav li 
+{
+	display: inline-block;
+}
+
+nav li:hover
+{
+	transform:scale(1.1,1.1);
+    cursor: pointer;
+}
+
+nav img
+{
+	width: 25px;
+}
+
+#role 
+{
+	color: 1e9b8d;
+	text-align: right;
+}
+
+h1
+{
+	color: white;
+	font-size: 70px;
+	text-shadow:0 0 10px black;
+	text-align: center;
+	padding-top: 210px;
+}

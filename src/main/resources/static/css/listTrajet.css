@@ -1,0 +1,359 @@
+
+
+/**********************************************\
+		liste user
+\**********************************************/
+.br{
+	clear: both;
+}
+.listuser{
+	position: relative;
+
+    width: 620px;
+    height: 200px; /*modified function size container calcul on 2000 px size page */
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: #c6c4c4;
+    transition: 2s height;
+    box-shadow: 8px 8px 10px #999;
+    border-left: 15px #dadada solid;
+    transform: translateX(0px) translateY(-440px) scale(0.8);
+}
+
+.listuser-title{
+	width: 600px;
+	height: 75px;
+
+	/*background-color: #575757;*/
+}
+.listuser-title span{
+	font-size: 18px;
+	margin-left: 2%;
+	margin-top: 5px;
+	color:#606066;
+	margin-top: -210px;
+}
+.listuser-title span::after{
+	display: block;
+	content: '';
+
+	width: 160px;
+	height: 2px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+/**********************************************\
+		ul
+\**********************************************/
+.ul-list{
+	width: 100%;
+
+}
+.trajet-list{
+	
+	position: absolute;
+
+    top: 0;
+    left: 0;
+
+    transform: translateY(48px);
+
+	width: 548px;
+
+	z-index: 2;
+
+	margin-left: 6%;
+	background-color: #e0dedf;
+	border: 9px solid #f2f2f2;
+}
+
+.list-content{
+	width: 100%;
+    height: 75px;
+    list-style: none;
+    background-color: #d8d8d8;
+    border: 1px solid #b8bcc1;
+    overflow: hidden;
+   transition: 2s height;
+}
+
+.trajet-description{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+   /*margin-top: 26px; */
+    width: 80%;
+    height: 230px;
+}
+
+
+/*************************\
+		user
+\***********************/
+
+.user{
+	width: 120px;
+    height: 40px;
+    margin-left: 4px;
+    padding: 10px;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.user p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+
+}
+.user div{
+  font-size: 13px;
+}
+
+.user-trajet{
+      padding-left: 7px;
+}
+
+/**********************************************\
+		list ul
+\**********************************************/
+
+.content-cube{
+	margin-top: 4%;
+    margin-left: 5%;	
+}
+.cube{
+	float: left;
+    width: 20px;
+    height: 11px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 15px 15px 0 38px;
+    background-color: #426891; 
+}
+
+/**********************************************\
+		btn delete
+\**********************************************/
+.trajet-match {
+	
+display: flex;
+    /* float: left; */
+    
+    bottom: 15px;
+    right: 44px;
+    width: 170px;
+    height: 40px;
+    border-radius: 26px;
+    /* margin: 20px; */
+    /* margin-left: 62px; */
+    transform: translateX(-135px) translateY(67px);
+}
+.trajet-match{background-color: #1d526e8c;}
+
+.button{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;	
+    color: white;
+}
+
+.button a{
+	text-decoration:none;
+}
+.trajet-match:hover{
+	background-color: #3980a58c;
+}
+
+.match{
+     transform: translateX(244px) translateY(-3px);
+}
+
+/**********************************************\
+	
+\**********************************************/
+
+.maxsize-user{
+	width: 300px;
+	height: 40px;
+
+	margin-left: 35px;
+	margin-top: 48px;
+}
+
+.infos{
+	margin-bottom: 5px;	
+	color: #797474;
+}
+.user-foot{
+	position: absolute;
+
+	bottom: 0;
+	left: -15px;
+
+	transform: translateX(30px);
+
+	width: 420px;
+	height: 75px;
+
+	margin-bottom: 15px;
+
+	/*background-color: #575757;*/
+}
+
+/**********************************************\
+	file more
+\**********************************************/
+.file-detail {
+	position: relative;
+
+    float: right;
+    width: 30px;
+
+    height: 30px;
+    margin: -270px 30px 0 0;
+    border-radius: 50%;
+
+    border: 2px solid white;
+    background-color: #b3b6b7;
+    transform: translateX(233px);
+
+}
+.file-detail:hover{
+	background-color: #f5043391;
+}
+.btn-detail{
+	position: absolute;
+	display: block;	
+
+	width: 18px;
+	height: 3px;
+	border-radius: 6px;
+
+	top: 50%;
+	left: 50%;	
+
+	transform: translateX(-50%) translateY(-50%);
+	background: transparent;
+}
+.btn-detail::before,.btn-detail::after{
+	position: absolute;
+	content: '';
+
+	width: 18px;
+	height: 3px;
+
+	top: 0;
+	left: 0;
+
+	transform-origin: 50% 50%;
+
+	background-color:white;
+	border-radius: 6px;
+}
+
+.btn-detail::after{
+	 transform: translateY(0) rotate(-90deg);
+}
+
+
+/**********************************************\
+	active
+\**********************************************/
+
+.hidden-detail{
+	/*overflow: hidden;*/
+	height: 338px;
+	/*transition: 2s height;*/
+}
+/**********************************************\
+	claque
+\**********************************************/
+
+.claque{
+	position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.fadein {
+  display: block;
+}   
+
+/**********************************************\
+	claque btn
+\**********************************************/
+ 
+
+.btn-close {
+  display: block;
+  position: relative;
+  height: 60px;
+  width: 60px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #145f82;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.btn-close:hover {
+  opacity: 0.5;
+}
+
+.btn-close span {
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+}
+
+.btn-close span::before, .btn-close span::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 25px;
+  height: 3px;
+  transform: translateY(-6px);
+  background-color: white;
+}
+
+.btn-close span::after {
+  transform: translateY(6px);
+}
+
+
+.claque .btn-close {
+  margin-top: 5%;
+  margin-left: 85%;
+  background-color: #148277;
+}
+
+.claque .btn-close span {
+  background: transparent;
+}
+
+.claque .btn-close span::before, .claque .btn-close span::after {
+  transform-origin: 50% 50%;
+  transform: translateY(0) rotate(45deg);
+}
+
+.claque .btn-close span::after {
+  transform: translateY(0) rotate(-45deg);
+}

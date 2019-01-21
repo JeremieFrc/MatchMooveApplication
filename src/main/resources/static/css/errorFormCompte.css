@@ -1,0 +1,13 @@
+
+.error{
+	color: #d9534f;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.input-error{
+	border-color:#cd7060;
+}
+.input-validate{
+	border-color:green;
+}

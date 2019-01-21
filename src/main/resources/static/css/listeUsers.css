@@ -1,0 +1,364 @@
+
+
+/**********************************************\
+		liste user
+\**********************************************/
+.br{
+	clear: both;
+}
+.match-list{
+	margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+
+
+.listuser{
+	position: relative;
+    margin: 0 auto;
+    width: 740px;
+    height: 200px; /*modified function size container calcul on 2000 px size page */
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: #c6c4c4;
+    transition: 1s height;
+}
+
+.listuser-title{
+	width: 710px;
+	height: 75px;
+
+	background-color: #575757;
+}
+.listuser-title>h1{
+	float: left;
+	font-size: 18px;
+
+	margin-left: 2%;
+	margin-top: -70px;
+	color:#e6e6e8;
+}
+.listuser-title>h1::after{
+	display: block;
+	content: '';
+
+	width: 160px;
+	height: 2px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+/**********************************************\
+		ul
+\**********************************************/
+.ul-list{
+	width: 100%;
+
+}
+.user-list{
+	
+	position: absolute;
+
+    top: 0;
+    left: 0;
+
+    transform: translateY(48px);
+
+	width: 650px;
+
+	z-index: 2;
+
+	margin-left: 6%;
+	background-color: #e0dedf;
+	border: 9px solid #f2f2f2;
+}
+
+.list-content{
+	width: 100%;
+    height: 65px;
+    list-style: none;
+    background-color: #d8d8d8;
+    border: 1px solid #b8bcc1;
+    overflow: hidden;
+   transition: 2s height;
+}
+
+.user-description{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 26px;
+    width: 70%;
+}
+
+/*************************\
+		user
+\***********************/
+
+.user{
+	width: 180px;
+    height: 20px;
+
+	margin-bottom: 15px;
+    margin-left: 4px;
+
+    font-size: 14px;
+    color: #666666;
+    
+	
+}
+/**********************************************\
+		list ul
+\**********************************************/
+
+.content-cube{
+	margin-top: 4%;
+    margin-left: 5%;	
+}
+.cube{
+	float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 15px 15px 0 38px;
+    background-color: #426891; 
+}
+
+/**********************************************\
+		btn delete
+\**********************************************/
+.user-delete,.user-modified {
+	
+	display: flex;
+    float: left;
+    width: 170px;
+    height: 40px;
+    border-radius: 26px;
+    margin: 20px;
+    margin-left: 66px;
+}
+.user-delete{background-color: #143045;}
+
+.user-modified{background-color: #143045}
+
+.user-delete a,.user-modified a{
+	color:white;
+}
+
+.button{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;	
+}
+.user-delete:hover{
+	background-color: #3980a58c;
+
+}
+
+.user-modified:hover{
+	background-color: #3980a58c;
+}
+
+.user-modified a:hover,.user-delete a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+/**********************************************\
+	
+\**********************************************/
+.maxsize-title{
+	margin-top:30px;
+}
+.maxsize-user{
+	width: 300px;
+	height: 40px;
+
+	margin-left: 35px;
+	margin-top: 10px;
+}
+
+.infos{
+	margin-bottom: 5px;	
+	color: #bfbaba;
+}
+.user-foot{
+	position: absolute;
+
+	bottom: 0;
+	left: -15px;
+
+	transform: translateX(30px);
+
+	width: 710px;
+	height: 75px;
+
+	margin-bottom: 15px;
+
+	background-color: #575757;
+}
+
+/**********************************************\
+	file more
+\**********************************************/
+.file-detail {
+	position: relative;
+
+    float: right;
+    width: 30px;
+
+    height: 30px;
+    margin: 25px 30px 0 0;
+    border-radius: 50%;
+
+    border: 2px solid white;
+    background-color: #b3b6b7;
+    transform: translateY(-135px);
+
+}
+.file-detail:hover{
+	background-color: #f5043391;
+}
+.btn-detail{
+	position: absolute;
+	display: block;	
+
+	width: 18px;
+	height: 3px;
+	border-radius: 6px;
+
+	top: 50%;
+	left: 50%;	
+
+	transform: translateX(-50%) translateY(-50%);
+	background: transparent;
+}
+.btn-detail::before,.btn-detail::after{
+	position: absolute;
+	content: '';
+
+	width: 18px;
+	height: 3px;
+
+	top: 0;
+	left: 0;
+
+	transform-origin: 50% 50%;
+
+	background-color:white;
+	border-radius: 6px;
+}
+
+.btn-detail::after{
+	 transform: translateY(0) rotate(-90deg);
+}
+
+
+/**********************************************\
+	active
+\**********************************************/
+
+.hidden-detail{
+	/*overflow: hidden;*/
+	height: 220px;
+	/*transition: 2s height;*/
+}
+/**********************************************\
+	claque
+\**********************************************/
+
+.claque{
+	position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1350px;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.fadein {
+  display: block;
+}   
+
+/**********************************************\
+	claque btn
+\**********************************************/
+ 
+
+.btn-close {
+  display: block;
+  position: relative;
+  height: 45px;
+  width: 45px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #145f82;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.btn-close:hover {
+  opacity: 0.5;
+}
+
+.btn-close span {
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+}
+
+.btn-close span::before, .btn-close span::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 25px;
+  height: 3px;
+  transform: translateY(-6px);
+  background-color: white;
+}
+
+.btn-close span::after {
+  transform: translateY(6px);
+}
+
+
+.claque .btn-close {
+  margin-top: 5%;
+  margin-left: 88%;
+  background-color: #148277;
+}
+
+.claque .btn-close span {
+  background: transparent;
+}
+
+.claque .btn-close span::before, .claque .btn-close span::after {
+  transform-origin: 50% 50%;
+  transform: translateY(0) rotate(45deg);
+}
+
+.claque .btn-close span::after {
+  transform: translateY(0) rotate(-45deg);
+}
+
+
+.form-group{
+	position : relative;
+}
+
+.form-check-input{
+	position: absolute;
+    top: 8px;
+    left: 271px;
+}

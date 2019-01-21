@@ -1,0 +1,90 @@
+
+/**********************************************\
+		form
+\**********************************************/
+
+.l-client{
+	height: 100%;
+	display: flex;
+
+}
+.forms{
+	margin : auto;
+	margin-top: 60px;
+}
+.title-form{
+	width: 670px;
+	height: 60px;
+	background-color: #143045;
+
+}
+.title-form>h2{
+	margin-left: 5%;
+	color : white;
+	font-size: 24px;
+	line-height: 60px;
+}
+.form-creat{
+	width: 795px;
+
+	background-color: #efeded;
+	border: 1px solid #b7b7b7;
+	border-left: 19px solid #878686;
+}
+/**********************************************\
+		client form
+\**********************************************/
+
+/*ecriture des 2 class du a bootstrap*/
+.legend.legend-client{
+	color: #878686;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+.form-group{
+	margin-left: 26px;
+}
+
+.label{
+	float: left;
+}
+.label.label-nom{
+
+	width: 240px;
+	color: #878686;
+	font-size: 20px;
+	/*correction du bootstrap*/
+	font-weight: 200;
+	text-align: right;
+	text-transform: none;
+}
+
+.input-group{
+	width: 350px;
+	height: 35px;
+}
+
+.input[type=checkbox]{
+	margin-top:9px;	
+}
+
+.form-control{}
+
+/**********************************************\
+		btn
+\**********************************************/
+
+.btn{
+	float: right;
+	margin-right: 30px;
+	margin-top: 8px;
+	transform: scale(1.15);
+}
+
+/**********************************************\
+		form commande 
+\*********************************************/
+
+.l-command{
+	display: none;
+}

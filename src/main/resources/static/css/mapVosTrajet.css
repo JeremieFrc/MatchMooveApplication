@@ -1,0 +1,33 @@
+ 
+
+/*------------------------------------------------
+					MAPS
+-------------------------------------------------*/
+
+.container-map{
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    height: 600px;
+    /* background-color: red; */
+    margin-inline-start: auto;
+}
+
+.box{
+  width: 520px;
+  height: 322px;
+  margin-right: 50px;
+  box-shadow: 11px 8px 10px #999;
+  transform: translateX(10px);
+}
+
+.box h1{
+
+}
+
+#map {
+  width: 500px;
+  height: 300px;
+  /* transform: translateX(10px) translateY(+280px); */
+       
+}

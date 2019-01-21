@@ -1,0 +1,45 @@
+
+
+/*----------------------------------------------------
+ .	Menu
+------------------------------------------------------*/
+
+
+
+nav ul 
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a
+{
+	display: inline-block;
+	color: #bddd1d;
+	font-weight: 700;
+	font-size: 2.2vw;
+	text-shadow:0 0 3px black;
+}
+
+nav a:hover
+{
+	color:#A1AD19;
+	text-decoration: none;
+	text-shadow:0 0 3px black;
+}
+
+nav li 
+{
+	display: inline-block;
+}
+
+nav li:hover
+{
+	transform:scale(1.1,1.1);
+    cursor: pointer;
+}
+
+nav img
+{
+	width: 40px;
+}

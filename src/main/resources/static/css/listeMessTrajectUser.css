@@ -1,0 +1,340 @@
+/*-------------------------------------------*\
+		$list message and trajet user
+\*-------------------------------------------*/
+
+.vostrajet{
+
+  width: 100%;
+ 
+    position: absolute;
+    width: 100%;
+    /* height: 284px; */
+    position: absolute;
+
+}
+
+.claque{}
+
+
+.list-message{
+
+  position: relative;
+	width: 524px;
+	height: 220px;
+	background-color: #d4cece;
+  border-radius: 12px;
+  margin : auto;
+  margin-top: 310px;
+
+}
+.list-message h2,.list-trajet h2{
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #6c6c92;
+}
+
+.message-content{
+	width: 400px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.message-content ul{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	height: 100%
+}
+.message-content li{
+
+  width: 100%;
+  height: 100%;
+  margin :auto;
+}
+.contents{
+  margin-left: 20px;
+}
+.contents .ct{
+  padding: 5px;
+}
+
+.send-user{}
+.send-user .sender{}
+.content .title{}
+
+
+
+.content-descriptions{
+  width: 350px;
+  height: 100px;
+  background-color: white;
+  border-left: 10px solid #2196f3;
+  margin-top : 5px;
+
+  /*border-radius: 12px;*/
+}
+.content-description p{}
+
+.list-message .btn-seen-delete{
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+
+  margin-right: 7px;
+  margin-bottom: 20px;
+}
+.list-message .btn-seen-delete {
+
+}
+
+
+/*-------------------------------------------*\
+		$list and trajet user
+\*-------------------------------------------*/
+
+
+
+.list-trajet-user{
+  position: relative;
+  border-radius: 12px;
+	width: 524px;
+	height: 100%;
+	background-color: #d4cece;
+  margin-top : 20px;
+  margin-bottom: 20px;  
+  margin-left: 40px;
+  transform: scale(0.8);
+}
+
+.list-trajet{}
+.list-trajet h2{}
+
+.trajet-content ul{
+  margin-bottom: 20px;
+}
+.trajet-content li{
+	display: flex;
+	flex-direction: column;
+  margin-left : 5px;
+
+}
+.trajet-content .content .title{
+    margin-left: 10px;
+}
+.trajet-content .content-description{
+	display: flex;
+	flex-direction: row;
+  margin-left: 10px;
+}
+.trajet-content .content-description div{
+  margin-left: 20px;
+  padding: 5px;
+}
+.listUser{
+  margin-left: 10px;
+  width: 150px;
+  margin-bottom: 10px;
+ border-left: 10px solid #2196f3;
+}
+
+.listUser h3{
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.depart{}
+.arrivied{}
+
+.btn{
+	display: flex;
+	width: 120px;
+	height: 40px;
+
+	line-height: 40px;
+	background-color: #6a88b0f7;
+
+	border-radius: 12px;
+	border-bottom: 2px solid white;
+}
+.btn a{
+	color :white;
+	margin:auto; 
+  text-transform: uppercase;
+}
+
+
+.trajet-content .content .btn-delete,.trajet-content .content .btn-seen-mess{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.trajet-content .content .btn-seen-mess{
+  transform: translateX(-150px);
+}
+
+
+/**********************************************\
+	claque
+\**********************************************/
+
+.claque{
+	position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1300px;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.46);
+    transform: translateY(-655px);
+    
+}
+
+.fadein {
+  display: block;
+}   
+
+
+/**********************************************\
+	claque btn
+\**********************************************/
+ 
+
+.btn-close {
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #145f82;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.btn-close:hover {
+  opacity: 0.5;
+}
+
+.btn-close span {
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+}
+
+.btn-close span::before, .btn-close span::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 25px;
+  height: 3px;
+  transform: translateY(-6px);
+  background-color: white;
+}
+
+.btn-close span::after {
+  transform: translateY(6px);
+}
+
+
+.claque .btn-close {
+      /* margin-top: 2%; */
+    margin-left: 78%;
+    background-color: #148277;
+    transform: translateY(300px);
+}
+
+.claque .btn-close span {
+  background: transparent;
+}
+
+.claque .btn-close span::before, .claque .btn-close span::after {
+  transform-origin: 50% 50%;
+  transform: translateY(0) rotate(45deg);
+}
+
+.claque .btn-close span::after {
+  transform: translateY(0) rotate(-45deg);
+}
+
+/**********************************************\
+  voir trajet
+\**********************************************/
+
+.voirTrajet{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 60px;
+
+  margin-left: 20px;
+  margin-top : 20px;
+
+}
+.voirTrajet p,.voirTrajet .hamb{
+  margin:auto;
+}
+.voirTrajet p{
+  color: #607d8b;
+}
+
+.hamb{
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  margin : auto;
+
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+
+
+
+.hamb span {
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+}
+
+.hamb span::before, .hamb span::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 15px;
+  height: 2px;
+  transform: translateY(-6px);
+  background-color: white;
+}
+
+.hamb span {
+  background: transparent;
+}
+
+.hamb span::before, .hamb span::after {
+    transform-origin: 98% 50%;
+    transform: translateY(0) rotate(45deg);
+}
+
+.hamb span::after {
+  transform: translateY(0) rotate(-45deg);
+}

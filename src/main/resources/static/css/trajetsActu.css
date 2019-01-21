@@ -1,0 +1,68 @@
+/* Trajets */ 
+#Trajets
+{
+	display: flex;
+	
+}
+.trajetbloc
+{
+    width: 70%; 
+    margin: 10px; 
+    text-align: center; 
+    padding: 30px; 
+    background: #f5f5fa; 
+    border-radius: 10px;
+    border: 1px solid #143045;
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+
+.trajetbloc img
+{
+	height: 70px;
+	width: 70px;
+    border-radius: 50%;
+	
+}
+
+/* Actu */
+#Actu
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#Actu a
+{
+	align-self: flex-end;
+}
+
+
+.actubloc
+{
+	background-image: url(../images/leaves.png);
+    width: 250px;
+    border: 0.1px solid #e3e3e3;
+    margin: 5px;
+    padding: 15px;
+}
+.actubloc img
+{
+	height: 200px;
+	width: auto;
+	margin: 10px;
+	border: solid  #143045 1px;
+}
+
+.actubloc a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.actubloc a:hover 
+{
+    text-decoration: none;
+
+}

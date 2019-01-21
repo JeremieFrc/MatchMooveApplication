@@ -1,0 +1,29 @@
+/* Infos User */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Lato, cursive;
+}
+
+#infosUser {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.blocInfo {
+	border: 0.1px solid black;
+	margin: 10px;
+	padding: 10px;
+	background-color: #f1f6fa;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 500px;
+}
+
+.error {
+	text-align: center;
+	color: red;
+}
